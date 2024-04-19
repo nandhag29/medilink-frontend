@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Header from '@/components/NavBar';
 import axios from 'axios';
 
 interface MessageData {
@@ -116,7 +115,7 @@ const Book: React.FC<Props> = ({ handleBookSlot }) => {
 
   return (
     <main>
-       <Header/ >
+       
       <div className="flex justify-center mt-20">
         <div className="flex flex-col text-center justify-center items-center">
           <h1 className="font-bold text-4xl mt-2">
@@ -175,3 +174,4 @@ const Book: React.FC<Props> = ({ handleBookSlot }) => {
 };
 
 export default Book;
+
